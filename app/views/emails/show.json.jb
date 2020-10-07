@@ -1,0 +1,9 @@
+{
+  id: @email.id,
+  user_id: @email.user_id,
+  receiver: @email.receiver,
+  subject: @email.subject,
+  body: @email.body,
+  created_at: @email.created_at,
+  updated_at: @email.updated_at
+}

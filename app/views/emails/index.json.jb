@@ -1,0 +1,10 @@
+@emails.map do |email|
+  {
+    id: email.id,
+    user_id: email.user_id,
+    receiver: email.receiver,
+    subject: email.subject,
+    body: email.body,
+    url: email_url(email, format: :json)
+  }
+end
